@@ -6,7 +6,6 @@
     "node": "16.13.2",
     "npm": "8.1.2"
   },
-  "proxy": "http://localhost:3001",
   "dependencies": {
     "@apollo/client": "^3.5.8",
     "@testing-library/jest-dom": "^5.11.4",
