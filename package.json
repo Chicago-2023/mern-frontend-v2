@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://mern-profile-api-5f3648144cb0.herokuapp.com/graphql",
+  "engines": {
+    "node": ">=14"
+},
   "dependencies": {
     "@apollo/client": "^3.5.8",
     "@testing-library/jest-dom": "^5.11.4",
