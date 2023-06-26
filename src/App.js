@@ -15,8 +15,14 @@ import Login from './pages/Login';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+console.log('NODE_ENV',  process.env.NODE_ENV)
+
+const url = process.env.NODE_ENV === 'development'
+  ? '/graphql'
+  : 'https://mern-profile-api-5f3648144cb0.herokuapp.com/graphql'
+
 const httpLink = createHttpLink({
-  uri: 'https://mern-profile-api-5f3648144cb0.herokuapp.com/graphql',
+  uri: url 
 });
 
 const authLink = setContext((_, { headers }) => {
