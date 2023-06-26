@@ -2,7 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://mern-profile-api-5f3648144cb0.herokuapp.com/graphql",
   "engines": {
     "node": "16.13.2",
     "npm": "8.1.2"
